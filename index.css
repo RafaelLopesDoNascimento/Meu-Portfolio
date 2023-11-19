@@ -12,7 +12,7 @@ background-size: cover;
 background-attachment: fixed;
 display: flex;
 flex-direction: column;
-min-height: 100vh;
+height: 100vh;
 }
 
 .this-body {
@@ -177,6 +177,7 @@ margin-bottom: 20px;
   }
   .details-text p {
     margin-top: 40px;
+line-height: 30px;
   }
   #menu {
     width: 200px;
@@ -184,6 +185,9 @@ margin-bottom: 20px;
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 200px;
+    line-height: 30px;
+    padding-block: 40px;
+
   }
   #menu a {
     display: flex;
@@ -197,6 +201,18 @@ margin-bottom: 20px;
 #ul-contact {
 list-style: none;
 
+}
+.dowloand-cv {
+  background-color: red;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 12px red;
 }
 
 .project {
@@ -267,6 +283,7 @@ grid-template-columns: repeat(3, 1fr);
 }
 
 @media (max-width: 1200px) {
+
   .details-text {
     width: 400px;
     height: 400px;
@@ -290,8 +307,7 @@ grid-template-columns: repeat(3, 1fr);
   grid-template-columns: repeat(2, 1fr);
   }
   .details-text p{
-font-size: 12px;
-
+font-size: 16px;
   }
 }
 @media (max-width: 800px) {
